@@ -1,8 +1,7 @@
 class Tester:
 
-    def __init__(self, name):   # Добавила self в аргументы функции
+    def __init__(self, name):   # Добавила self в аргументы функции и убрала строку с  deadline в теле функции
         self.name = name
-        #Убрала строчку: deadline = True 
 
     def work_hard(self, deadline=True):
         if deadline: # убрала self из: if self.deadline:
